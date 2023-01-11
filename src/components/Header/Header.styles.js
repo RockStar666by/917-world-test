@@ -18,6 +18,7 @@ export const HeaderContainer = styled.div`
   width: 100%;
   max-width: 1000px;
   height: 100%;
+  padding: 0 20px;
 `;
 
 // ------------------ Logo
@@ -51,6 +52,7 @@ export const StyledNavbar = styled.nav`
   width: 100%;
   max-width: 400px;
   margin-bottom: 14px;
+  margin-right: 85px;
 `;
 
 export const NavList = styled.ul`
