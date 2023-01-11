@@ -5,6 +5,7 @@ export const SecondaryContainer = styled.div``;
 export const SecondaryText = styled.p`
   display: flex;
   width: 100%;
+  max-width: 356px;
   text-align: left;
   font-family: 'Roboto';
   font-style: normal;

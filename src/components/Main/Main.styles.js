@@ -21,7 +21,7 @@ export const MainContainer = styled.div`
 export const MainArticle = styled.article`
   display: flex;
   flex-direction: column;
-  max-width: 356px;
+  max-width: 365px;
   width: 100%;
   height: 100%;
   background-color: antiquewhite;
