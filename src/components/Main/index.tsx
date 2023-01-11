@@ -1,5 +1,6 @@
 import React from 'react';
 import { Description } from '../Description';
+import { Downloads } from '../Downloads';
 import { Secondary } from '../SecondaryText';
 import {
   StyledMain,
@@ -15,6 +16,7 @@ export const Main = () => {
         <MainArticle>
           <Description />
           <Secondary />
+          <Downloads />
         </MainArticle>
         <MainAside></MainAside>
       </MainContainer>
