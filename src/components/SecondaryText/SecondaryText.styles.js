@@ -1,6 +1,21 @@
 import styled from 'styled-components';
 
-export const SecondaryContainer = styled.div``;
+export const SecondaryContainer = styled.div`
+  opacity: 0;
+  animation: 1s ease-out 1s 1 slideInFromLeft;
+  animation-fill-mode: forwards;
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-20%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+`;
 
 export const SecondaryText = styled.p`
   display: flex;

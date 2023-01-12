@@ -4,7 +4,7 @@ import { StyledLogo, LogoLink, LogoText } from './Header.styles';
 export const Logo = () => {
   return (
     <StyledLogo>
-      <LogoLink href='#'>
+      <LogoLink href='/'>
         <LogoText>
           Nude<sup>®</sup>
         </LogoText>

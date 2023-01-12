@@ -6,16 +6,16 @@ export const Navbar = () => {
     <StyledNavbar>
       <NavList>
         <li>
-          <a href=''>Lifetime ISA</a>
+          <a href='#lifetime'>Lifetime ISA</a>
         </li>
         <li>
-          <a href=''>Blog</a>
+          <a href='#blog'>Blog</a>
         </li>
         <li>
-          <a href=''>Pact</a>
+          <a href='#pact'>Pact</a>
         </li>
         <li>
-          <a href=''>Purpose</a>
+          <a href='#purpose'>Purpose</a>
         </li>
       </NavList>
     </StyledNavbar>

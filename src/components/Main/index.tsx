@@ -2,6 +2,7 @@ import React from 'react';
 import { Description } from '../Description';
 import { Downloads } from '../Downloads';
 import { Partners } from '../Partners';
+import { Phone } from '../Phone';
 import { Secondary } from '../SecondaryText';
 import {
   StyledMain,
@@ -20,7 +21,9 @@ export const Main = () => {
           <Downloads />
           <Partners />
         </MainArticle>
-        <MainAside></MainAside>
+        <MainAside>
+          <Phone />
+        </MainAside>
       </MainContainer>
     </StyledMain>
   );

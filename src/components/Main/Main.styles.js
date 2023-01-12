@@ -14,7 +14,6 @@ export const MainContainer = styled.div`
   max-width: 1000px;
   width: 100%;
   height: 100%;
-  background-color: snow;
   padding: 0 20px;
 `;
 
@@ -24,7 +23,6 @@ export const MainArticle = styled.article`
   max-width: 365px;
   width: 100%;
   height: 100%;
-  background-color: antiquewhite;
 `;
 
 export const MainAside = styled.aside`
@@ -32,5 +30,4 @@ export const MainAside = styled.aside`
   max-width: 590px;
   width: 100%;
   height: 100%;
-  background-color: antiquewhite;
 `;
